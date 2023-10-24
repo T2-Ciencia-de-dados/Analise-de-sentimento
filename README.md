@@ -1,7 +1,14 @@
 # Projeto de Análise e Previsão de Satisfação do Cliente em Empresas de Fast Food
 
 ## **Proposta do Projeto:**
+
 Este projeto tem como objetivo analisar a satisfação do cliente em empresas de fast food e prever como eventos específicos afetam essa satisfação. A proposta é fornecer insights valiosos para empresas do setor de fast food, permitindo que elas compreendam melhor como suas ações e eventos impactam a experiência do cliente.
+
+Uma parte essencial desta proposta é o cruzamento de dados públicos, como comentários de clientes sobre as empresas, com informações sobre eventos que ocorreram nas empresas ao longo dos anos. Os comentários de clientes são uma fonte rica de dados não estruturados que podem revelar a percepção do cliente sobre a qualidade dos produtos e serviços. A análise de sentimento é aplicada a esses comentários para determinar se os clientes estão satisfeitos, neutros ou insatisfeitos.
+
+Ao cruzar esses dados de sentimento com informações sobre eventos nas empresas por ano, podemos estabelecer conexões cruciais. Por exemplo, podemos identificar se uma mudança na receita de um produto específico coincidiu com uma queda na satisfação do cliente. Isso fornece às empresas insights valiosos sobre quais ações específicas podem ter afetado negativamente a satisfação do cliente.
+
+Esse processo de análise e cruzamento de dados públicos oferece uma abordagem holística para entender a dinâmica da satisfação do cliente em empresas de fast food, possibilitando uma tomada de decisão mais informada e a melhoria contínua da experiência do cliente.
 
 ![Media por ano Todas](https://github.com/T2-Ciencia-de-dados/Analise-de-sentimento/assets/79452652/bc4b5b78-31ec-4967-b459-050844da4e44)
 
