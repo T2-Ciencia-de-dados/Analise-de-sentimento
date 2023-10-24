@@ -1,6 +1,11 @@
 # Projeto de Análise e Previsão de Satisfação do Cliente em Empresas de Fast Food
 
-Este projeto visa analisar e prever a satisfação do cliente em empresas de fast food com base em eventos específicos associados a essas empresas. A conclusão principal extraída deste estudo é que eventos que geram mudanças significativas, como remoção de produtos ou mudança de receita (ingredientes), têm um impacto mais negativo na satisfação do cliente.
+## **Proposta do Projeto:**
+Este projeto tem como objetivo analisar a satisfação do cliente em empresas de fast food e prever como eventos específicos afetam essa satisfação. A proposta é fornecer insights valiosos para empresas do setor de fast food, permitindo que elas compreendam melhor como suas ações e eventos impactam a experiência do cliente.
+
+![Media por ano Todas](https://github.com/T2-Ciencia-de-dados/Analise-de-sentimento/assets/79452652/bc4b5b78-31ec-4967-b459-050844da4e44)
+
+## **Pipeline da Solução:**
 
 ## 1. Coleta de Dados:
 
@@ -42,8 +47,21 @@ O modelo treinado foi aplicado a novos dados sintéticos relacionados às empres
 
 Foi demonstrado como aplicar encoders e scalers previamente treinados em novos dados antes de fazer previsões com o modelo. Isso é essencial para garantir que os novos dados tenham o mesmo formato que os dados de treinamento.
 
-## 11. Exibição de Resultados e Imagens:
+## **Resultados Alcançados:**
 
 As categorias previstas para as empresas McDonalds e Subway foram exibidas, e imagens associadas às empresas foram mostradas usando a biblioteca IPython.
 
 Este projeto oferece uma visão abrangente do processo de análise e previsão de satisfação do cliente em empresas de fast food. A conclusão crítica destaca a importância de gerenciar cuidadosamente eventos que envolvem mudanças significativas, orientando as estratégias das empresas para melhor atender às expectativas e preferências dos clientes.
+
+
+A análise revelou que eventos que resultam em mudanças substanciais, como remoção de produtos ou mudança de receita (ingredientes), têm um impacto mais negativo na satisfação do cliente em empresas de fast food. Essa conclusão é crucial para as empresas do setor, destacando a importância de considerar cuidadosamente as mudanças significativas que podem afetar a experiência do cliente.
+
+Como pode ser observado,como exemplo, no ano de 2016 ambas as empresas(PizzaHut e Subway) mudaram de alguma forma o padrao com que receitas antigas eram feitas e da forma com que essas mudanças foram apresentadas ao publico, teve um impacto negativo na visao dos clientess sobre essas empresas.
+PizzaHut:
+![MudançasPizzaHut](https://github.com/T2-Ciencia-de-dados/Analise-de-sentimento/assets/79452652/204c4bd3-d717-4d4e-9e29-8bc1f2d81b37)
+Subway:
+![MudançasSubWay](https://github.com/T2-Ciencia-de-dados/Analise-de-sentimento/assets/79452652/f4872855-ec7c-4e50-b473-f0bd592de4e0)
+
+
+Este projeto oferece uma visão abrangente do processo de análise e previsão de satisfação do cliente em empresas de fast food, fornecendo uma solução valiosa para o setor.
+
