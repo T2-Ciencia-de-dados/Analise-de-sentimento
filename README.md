@@ -57,6 +57,7 @@ Este projeto oferece uma visão abrangente do processo de análise e previsão d
 A análise revelou que eventos que resultam em mudanças substanciais, como remoção de produtos ou mudança de receita (ingredientes), têm um impacto mais negativo na satisfação do cliente em empresas de fast food. Essa conclusão é crucial para as empresas do setor, destacando a importância de considerar cuidadosamente as mudanças significativas que podem afetar a experiência do cliente.
 
 Como pode ser observado,como exemplo, no ano de 2016 ambas as empresas(PizzaHut e Subway) mudaram de alguma forma o padrao com que receitas antigas eram feitas e da forma com que essas mudanças foram apresentadas ao publico, teve um impacto negativo na visao dos clientess sobre essas empresas.
+
 PizzaHut:
 ![MudançasPizzaHut](https://github.com/T2-Ciencia-de-dados/Analise-de-sentimento/assets/79452652/204c4bd3-d717-4d4e-9e29-8bc1f2d81b37)
 Subway:
