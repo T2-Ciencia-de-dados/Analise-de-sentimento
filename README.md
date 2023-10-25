@@ -67,4 +67,34 @@ PizzaHut:
 Subway:
 ![MudançasSubWay](https://github.com/T2-Ciencia-de-dados/Analise-de-sentimento/assets/79452652/f4872855-ec7c-4e50-b473-f0bd592de4e0)
 
+## **Informações sobre o modelo criado:**
+
+**Arquitetura do Modelo:**
+- A primeira camada é uma camada densa (Fully Connected) com 128 neurônios e ativação ReLU. A entrada para essa camada tem dimensão igual ao número de recursos no conjunto de treinamento, ou seja, `X_train.shape[1]`.
+- Em seguida, adicionamos uma camada de dropout com uma taxa de 0.5. O dropout ajuda a regularizar o modelo, reduzindo o risco de overfitting.
+- A terceira camada é outra camada densa com 64 neurônios e ativação ReLU.
+- A camada de saída consiste em três neurônios com ativação softmax. Essa configuração permite a classificação multiclasse, onde cada neurônio representa uma classe de satisfação do cliente (Insatisfeito, Neutro, Satisfeito).
+
+**Compilação do Modelo:**
+- O otimizador usado é o 'adam', que é uma escolha comum para tarefas de classificação.
+- A função de perda (loss) escolhida é 'sparse_categorical_crossentropy', apropriada para problemas de classificação multiclasse com rótulos inteiros.
+- A métrica de avaliação escolhida é 'accuracy' para monitorar o desempenho durante o treinamento.
+
+**Treinamento do Modelo:**
+- Foi definido um critério de parada antecipada (early stopping) usando a métrica 'val_loss' (perda no conjunto de validação) como referência. O treinamento será interrompido se a perda no conjunto de validação não melhorar por 30 épocas, e os melhores pesos do modelo serão restaurados.
+- O modelo foi treinado por 500 épocas com um tamanho de lote (batch size) de 32. Uma validação de 20% do conjunto de treinamento foi usada durante o treinamento.
+
+**Métricas de Avaliação:**
+- As métricas de avaliação foram calculadas com base nas previsões do modelo no conjunto de teste. As métricas incluem precisão (precision), recall, F1-score e suporte para cada classe.
+
+Aqui estão as métricas do modelo:
+
+- **Precisão (Precision):** Representa a capacidade do modelo de prever corretamente instâncias positivas. Os valores variam para cada classe (Insatisfeito, Neutro, Satisfeito).
+- **Recall:** Mostra a capacidade do modelo de recuperar todas as instâncias positivas. Assim como a precisão, os valores variam para cada classe.
+- **F1-score:** É a média harmônica da precisão e do recall e fornece um equilíbrio entre essas duas métricas.
+- **Suporte:** Representa o número de instâncias de cada classe no conjunto de teste.
+
+No geral, o modelo atingiu uma acurácia de aproximadamente 66%, o que significa que ele classificou corretamente cerca de 66% das instâncias no conjunto de teste. As métricas de precisão, recall e F1-score variam para cada classe, o que indica o desempenho diferenciado do modelo para as categorias de satisfação do cliente. Vale ressaltar que o modelo é mais preciso na categoria "Satisfeito" e menos preciso na categoria "Neutro". Isso fornece informações valiosas sobre como as diferentes categorias de satisfação são previstas pelo modelo.
+
+
 
