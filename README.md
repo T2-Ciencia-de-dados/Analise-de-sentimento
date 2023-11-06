@@ -1,5 +1,9 @@
 # Projeto de Análise e Previsão de Satisfação do Cliente em Empresas de Fast Food
 
+Joao vitor sarti 18.01224-8
+Guilherme Costa e Souza 19.00065-0
+Matheus Rossini de Souza 18.01060-0
+
 ## **Proposta do Projeto:**
 
 Este projeto tem como objetivo analisar a satisfação do cliente em empresas de fast food e prever como eventos específicos afetam essa satisfação. A proposta é fornecer insights valiosos para empresas do setor de fast food, permitindo que elas compreendam melhor como suas ações e eventos impactam a experiência do cliente.
