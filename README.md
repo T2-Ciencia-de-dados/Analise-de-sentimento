@@ -1,8 +1,8 @@
 # Projeto de Análise e Previsão de Satisfação do Cliente em Empresas de Fast Food
 
-Joao vitor sarti 18.01224-8
-Guilherme Costa e Souza 19.00065-0
-Matheus Rossini de Souza 18.01060-0
+### Joao vitor sarti 18.01224-8
+### Guilherme Costa e Souza 19.00065-0
+### Matheus Rossini de Souza 18.01060-0
 
 ## **Proposta do Projeto:**
 
